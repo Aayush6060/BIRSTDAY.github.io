@@ -11,7 +11,7 @@ Your smile is my favorite thing in the world 💕
 Today, the world celebrates YOU — and so do I ❤️
 
 With all my love,
-Your Aashiq 💌`;
+Your Aayush 💌`;
 
 let i = 0;
 
@@ -49,6 +49,6 @@ function showCake() {
 
 function showILoveYou() {
   const love = document.getElementById("iloveyou");
-  love.innerHTML = "I ❤️ L ❤️ O ❤️ V ❤️ E ❤️  Y ❤️ O ❤️ U ❤️  K ❤️ A ❤️ L ❤️ Y ❤️ A ❤️ N ❤️ I ❤️ 🎉";
+  love.innerHTML = "HAPPY BIRTHDAY MY LOVE ❤️ 🎉";
   love.style.display = "block";
 }
