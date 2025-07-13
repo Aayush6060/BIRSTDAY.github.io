@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Kalyani 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Confetti -->
+  <div class="confetti-container" id="confetti-container"></div>
+
+  <!-- Birthday Card -->
+  <div class="card-container">
+    <div class="card" id="birthdayCard">
+      <div class="front">
+        <h2>🎉 Happy Birthday</h2>
+        <p>My Dearest Kalyani 💖</p>
+        <button onclick="flipCard()">Open Your Card 💌</button>
+      </div>
+      <div class="back">
+        <div class="message" id="typewriterText"></div>
+        <button onclick="showConfetti(); showCake(); showILoveYou()">Celebrate 🎊</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cake -->
+  <div class="cake" id="cake">🎂</div>
+
+  <!-- I LOVE YOU Animation -->
+  <div class="iloveyou" id="iloveyou"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
